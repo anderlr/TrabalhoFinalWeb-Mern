@@ -5,10 +5,14 @@
 
 #### O Projeto tem como requisito MongoDB e MongoDB CLI, então verifique e estes estão rodando corretamente
 
-Grupo: Anderson(2018019033), Gustavo(2020008823), Luana(2019009541), Lucas Marcelo(2019004868) e Rolandro(2020016530)
+Grupo: 
+Anderson(2018019033)
+Gustavo(2020008823)
+Luana(2019009541)
+Lucas Marcelo(2019004868)
+Rolandro(2020016530)
 
 <hr>
-
 
 ### 1 -Clonar Projeto
 
