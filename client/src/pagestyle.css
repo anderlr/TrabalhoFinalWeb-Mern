@@ -1,0 +1,236 @@
+html
+{
+    background-color: rgb(53, 48, 48);
+}
+#root {
+    background-color: rgb(53, 48, 48);
+}
+
+.header-custom {
+    padding: 20px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title {
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.0625em;
+    text-shadow: 1px 1px black;
+    color: white;
+    margin-left: 2%;
+    margin-right: 2.3%;
+}
+
+.header-button {
+    font-size: 1.0rem;
+    font-weight: 550;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+}
+
+.header-button-add {
+    font-size: 1.5rem;
+    font-weight: 550;
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+label {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.comment-button {
+    font-size: 1.0rem;
+    font-weight: 550;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-flex-container {
+    margin: 1%;
+    margin-bottom: 0%;
+    padding: 2% 20% 2% 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-align: center;
+    background-color: #c53939;
+    align-items: center;
+    color: white;
+}
+
+.top-flex-container h1 {
+    font-size: 35px;
+    font-family: 'Times New Roman', cursive;
+    letter-spacing: 0.0625em;
+    text-shadow: 1px 1px black;
+}
+
+.top-flex-container p {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+.top-flex-container input {
+    font-family: 'Lusitana', serif;
+}
+
+.input {
+    font-family: 'Lusitana', serif;
+    width: 80%;
+    height: 60px;
+    border-radius: 2px;
+    border-color: rgb(143, 143, 143);
+}
+
+.input-comment {
+    font-family: 'Lusitana', serif;
+    width: 300px;
+    height: 60px;
+    border-radius: 2px;
+    border-color: rgb(143, 143, 143);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intro-text {
+    padding: 5%;
+    font-size: 28px;
+    letter-spacing: 0.01em;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.game-flex-container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2%;
+    border-radius: 2px;
+}
+
+.remove-game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(165, 19, 19);
+    color: white;
+    font-size: 16px;
+    margin-top: 5%;
+    font-family: 'Roboto Slab', serif;
+    width: auto;
+}
+
+.remove-game:hover {
+    background-color: rgb(190, 23, 23);
+}
+
+.game-title {
+    font-size: 3.2em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.game-desc {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+
+.game-desc strong {
+    text-decoration: underline;
+}
+
+.game-rating {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.comment-container {
+    border: 1px solid rgb(131, 163, 168);
+    padding: 2%;
+    width: 80%;
+    height: 300px;
+    overflow: auto;
+    background-color: rgb(205, 244, 252);
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+select {
+    height: 60px;
+    font-family: 'Roboto Slab', serif;
+}
+
+@media screen and (max-width: 500px) {
+
+    .header-button, .header-button-add {
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    .top-flex-container {
+        padding: 2% 10% 2% 10%;
+    }
+
+    .top-flex-container p {
+        font-size: 14px;
+    }
+    
+    .top-flex-container input {
+        text-align: center;
+    }
+
+    .intro-text {
+        font-size: 20px;
+        margin: 1%;
+        color: rgb(255, 255, 255);
+    }
+
+    .input-comment {
+        width: 200px;
+    }
+    
+}
